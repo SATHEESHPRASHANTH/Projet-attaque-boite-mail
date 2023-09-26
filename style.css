@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: 250px 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header button {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.content {
+    padding: 20 px;
+}
+
+.email-list {
+    list-style: none;
+}
+
+.email-list li {
+    border: 5px solid #ddd;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10 px;
+}
+
+.sidebar{
+    border: 5px solid #9dcbff;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.button {
+    
+}
