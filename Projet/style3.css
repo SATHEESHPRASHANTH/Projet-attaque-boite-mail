@@ -1,0 +1,27 @@
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex!important; /* to override display:block */
+}
+
+.main {
+    order: 1;
+    flex: 0 15%;
+    background-color: rgb(160, 175, 175);
+}
+
+.optional {
+    order: 2;
+    flex: 0 85%;
+    background-color: bisque;
+}
+
+li{
+    background-color: white;
+}
+
+.optional ul{
+    border:15px solid black;
+}
